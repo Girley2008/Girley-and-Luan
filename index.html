@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Curiosidades do Asta</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #004687;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #004687;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+
+        img {
+            width: 200px;
+            border-radius: 8px;
+        }
+
+        a {
+            color: #1f4e79;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        button {
+            background-color: #004687;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #082567;
+        }
+
+        footer {
+            background-color: #1f4e79;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>Curiosidades do Asta</h1>
+    <p>Diferenças entre as espadas dele</p>
+        <h2>Imagem de exemplo</h2>
+</header>
+
+<main>
+
+    <div class="card">
+        <h2>Espada Matadora de Demônios </h2>
+        <p>É a primeira e mais icônica espada, de tamanho colossal. Sua principal função é rebater e cortar feitiços com a lateral plana ou com o fio da lâmina.</p>
+        <p> Ela também pode ser invocada à distância e serve como o principal meio de transporte do Asta, que aprendeu a voar nela usando a anti-magia</p>
+        <img src="https://i.redd.it/faz8j5gnlwd91.jpg">
+    </div>
+
+    <div class="card">
+        <h2>Espada Habitadora do Demônio </h2>
+        <p>Uma lâmina mais ornamentada que permite ao Asta lançar cortes de anti-magia à distância.</p>
+        <p>Sua habilidade especial é a absorção: ela pode "pegar emprestada" a magia de seus aliados para disparar ataques elementais infundidos com anti-magia.</p>
+        <img src="https://static.wikia.nocookie.net/blackclover/images/a/a7/Demon-Dweller_Sword.png/revision/latest?cb=20200901184231&path-prefix=pt-br">
+    </div>
+
+    <div class="card">
+        <h2>Imagem de exemplo</h2>
+        <img src="https://img.odcdn.com.br/wp-content/uploads/2024/06/Codigo-de-programacao-via-Chris-Ried-Unsplash-1536x1026.jpg">
+        <img src="https://media.istockphoto.com/id/1048373706/photo/software-developer-programming-code-abstract-computer-script-code-programming-code-screen-of.jpg?s=612x612&w=0&k=20&c=F9aCXs0QsedJCUV6Hbwdj7cxD5K2xBkYfUJ5nVNQCEo="
+    </div>
+
+    <div class="card">
+        <h2>Link de exemplo</h2>
+        <p>
+            <a href="https://github.com/Girley2008?tab=repositories">
+                Abrir o Google
+            </a>
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Interação</h2>
+        <button onclick="mostrarMensagem()">Não click aqui</button>
+        <p id="mensagem"></p>
+    </div>
+
+</main>
+
+<footer>
+    Página criada no Laboratório Web
+</footer>
+
+<script>
+    function mostrarMensagem() {
+        document.getElementById("mensagem").innerHTML =
+        "Parabéns! Você executou um comando usando JavaScript.";
+    }
+</script>
+
+</body>
